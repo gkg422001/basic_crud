@@ -47,3 +47,13 @@ Note that backend.app.main is the specified module path based on the your root f
 
 ### 7. After running the server. Navigate to the file where the html files are located and open it with google chrome.
 ![Image](https://github.com/user-attachments/assets/233c3c9b-370b-4204-9367-4d2330c6980d)
+
+# Sample Requests and Responses
+EndPoints
+![Image](https://github.com/user-attachments/assets/120a9d43-ff1e-4a59-acd9-9159c1b9b086)
+
+1. Request and Response for /users
+![Image](https://github.com/user-attachments/assets/33e2c49e-baf0-4d58-a15b-67442e44153a)
+
+2. Request and Response for /userById/{id}
+![Image](https://github.com/user-attachments/assets/c843a0b6-50b6-4e99-9268-be99fb075063)
