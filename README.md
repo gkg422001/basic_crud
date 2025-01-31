@@ -39,3 +39,8 @@ or use tools like GitKraken, SourceTree or any tool you are comfortable with.
 ### 5. Once done, rename the json file to anything you want and open the cloned project. After opening the cloned project navigate to the backend folder and main.py file. In the main.py file locate this line of code "cred = credentials.Certificate(r"C:\Users\user\Documents\JSON\service_account.json")" and change the path to wherever you saved the renamed json file.
 ![Image](https://github.com/user-attachments/assets/e5be10a9-1ee2-4f61-8a58-9e93ffaf75ab)
 
+### 6. After the configuration you can run the backend server using the command
+```bash
+uvicorn backend.app.main:app --reload
+```
+Note that backend.app.main is the specified module path based on the your root folder path.
