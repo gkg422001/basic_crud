@@ -69,3 +69,25 @@ EndPoints
 
 6. Request and Response for /login/
 ![Image](https://github.com/user-attachments/assets/c1706efd-5466-4d02-9f37-328b9d32ff11)
+
+# FrontEnd Screenshots
+1. Login
+![Image](https://github.com/user-attachments/assets/c4d53ce6-0a6e-4d48-9375-679bb8653769)
+
+2. SignUp
+![image](https://github.com/user-attachments/assets/aa7e9485-145c-460c-9c52-8d451c37212b)
+
+3. Home
+![image](https://github.com/user-attachments/assets/6fedf32c-30d6-4abf-96d5-429540b06f89)
+
+4. Edit User Modal
+![image](https://github.com/user-attachments/assets/5cd08d7f-fd50-49e2-bfd4-9296292e41bd)
+
+5. Delete
+![image](https://github.com/user-attachments/assets/8dafcedc-023b-4893-9773-7bfe3fe15d3a)
+
+6. Save
+![image](https://github.com/user-attachments/assets/f3227ba1-ba67-416c-9c45-cc4878a27263)
+
+
+
