@@ -30,3 +30,5 @@ or use tools like GitKraken, SourceTree or any tool you are comfortable with.
 ### 2. In your Firebase Account Create a New Project
 ![Image](https://github.com/user-attachments/assets/b07de18a-4f63-454c-aa9b-ea956e462ffa)
 
+### 3. After creating a new project click the settings icon and navigate to project settings
+![Image](https://github.com/user-attachments/assets/b9a131f6-94b5-4074-8d5b-5e965d9e0601)
