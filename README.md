@@ -57,3 +57,15 @@ EndPoints
 
 2. Request and Response for /userById/{id}
 ![Image](https://github.com/user-attachments/assets/c843a0b6-50b6-4e99-9268-be99fb075063)
+
+3. Request and Response for /createUser/
+![Image](https://github.com/user-attachments/assets/bb1d205a-f61a-4c12-91b5-5155262ca94a)
+
+4. Request and Response for /updateUser/{id}
+![Image](https://github.com/user-attachments/assets/26ded3a1-f77c-4906-997e-3fc64c357a00)
+
+5. Request and Response for /deleteUser/{id}
+![Image](https://github.com/user-attachments/assets/1f9a2714-6480-4ba7-9474-f3164c4a8e74)
+
+6. Request and Response for /login/
+![Image](https://github.com/user-attachments/assets/c1706efd-5466-4d02-9f37-328b9d32ff11)
