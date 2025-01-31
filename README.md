@@ -18,3 +18,5 @@ pip install uvicorn
 pip install pydantic[email]
 pip install passlib[bcrypt]
 ```
+
+# Installation and Setup
