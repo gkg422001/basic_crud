@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+    <link href="assets/css/home.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Logout Button-->>
+    <div class="logout-container">
+        <button class="btn btn-logout" onclick="logout()">Logout</button>
+    </div>
+    
+    <!--Table Content-->
+    <div class="container">
+        <h1>User Management</h1>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="userTableBody">
+                    <!-- Table content will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h2>Edit User</h2>
+            <div style="margin-bottom: 1rem;">
+                <label for="editEmail">Email</label>
+                <input type="email" id="editEmail" readonly disabled>
+            </div>
+            <div style="margin-bottom: 1rem;">
+                <label for="editFirstName">First Name</label>
+                <input type="text" id="editFirstName" placeholder="First Name">
+            </div>
+            <div style="margin-bottom: 1rem;">
+                <label for="editLastName">Last Name</label>
+                <input type="text" id="editLastName" placeholder="Last Name">
+            </div>
+            <div id="errorMessage" class="error-message"></div>
+            <div class="modal-buttons">
+                <button class="btn btn-edit" onclick="saveEdit()">Save</button>
+                <button class="btn btn-delete" onclick="closeModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/javascript/home.js"></script>
+</html>

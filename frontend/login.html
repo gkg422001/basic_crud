@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/login.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!--LEFT SIDE OF THE WHOLE CONTAINER-->
+        <div class="left-side">
+            <div class="imagePlaceholder">
+                <img src="assets/images/LOGO.webp" alt="Cannot Load Image">
+            </div>
+            <div class="welcome-text">Echo</div>
+        </div>
+
+        <!--RIGHT SIDE OF THE WHOLE CONTAINER-->
+        <div class="right-side">
+            <form class="login-form">
+                <h2>Login</h2>
+                <p class="subtitle">Welcome back! Please login to your account.</p>
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input type="email" placeholder="username@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="••••••••" required>
+                </div>
+                <div class="form-footer">
+                    <label class="remember-me">
+                        <input type="checkbox">
+                        Remember Me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+                <p class="signup-link">
+                    New User? <a href="#">Signup</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="assets/javascript/services.js"></script>
+<script src="assets/javascript/login.js"></script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="assets/css/signup.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!--BACK BUTTON-->
+        <button class="btn">
+            <i class="bi bi-arrow-left-circle-fill" onclick="window.history.back();"></i>
+        </button>
+
+        <!--LEFT SIDE OF THE WHOLE CONTAINER-->
+        <div class="left-side">
+            <div class="imagePlaceholder">
+                <img src="assets/images/LOGO.webp">
+            </div>
+            <div class="welcome-text">Echo</div>
+        </div>
+
+        <!--RIGHT SIDE OF THE WHOLE CONTAINER-->
+        <div class="right-side">
+            <form class="signup-form">
+                <h2>SignUp</h2>
+                <p class="subtitle">Welcome to Echo. Please enter personal details.</p>
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input type="email" name="username" placeholder="username@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="••••••••" required>
+                    <span class="password-error" style="color: red; display: none; font-size: 10px;"></span>
+                </div>
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                </div>
+                <div class="form-group" id="lastField">
+                    <label>Last Name</label>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                </div>
+                <button type="submit" class="signup-button">SignUp</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="assets/javascript/signup.js"></script>
+</html>
