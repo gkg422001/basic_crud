@@ -21,3 +21,12 @@ pip install passlib[bcrypt]
 
 # Installation and Setup
 Note: Make sure you have completed the prerequisites before proceeding
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/gkg422001/basic_crud.git
+```
+or use tools like GitKraken, SourceTree or any tool you are comfortable with.
+### 2. In your Firebase Account Create a New Project
+![Image](https://github.com/user-attachments/assets/b07de18a-4f63-454c-aa9b-ea956e462ffa)
+
