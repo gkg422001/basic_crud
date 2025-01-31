@@ -20,3 +20,4 @@ pip install passlib[bcrypt]
 ```
 
 # Installation and Setup
+Note: Make sure you have completed the prerequisites before proceeding
