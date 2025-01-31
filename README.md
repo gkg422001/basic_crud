@@ -36,3 +36,6 @@ or use tools like GitKraken, SourceTree or any tool you are comfortable with.
 ### 4. Once in project settings, navigate to Service Accounts and click on generate new private key
 ![image](https://github.com/user-attachments/assets/1f8bb9c3-529d-4917-8916-3f5b12106222)
 
+### 5. Once done, rename the json file to anything you want and open the cloned project. After opening the cloned project navigate to the backend folder and main.py file. In the main.py file locate this line of code "cred = credentials.Certificate(r"C:\Users\user\Documents\JSON\service_account.json")" and change the path to wherever you saved the renamed json file.
+![Image](https://github.com/user-attachments/assets/e5be10a9-1ee2-4f61-8a58-9e93ffaf75ab)
+
